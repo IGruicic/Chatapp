@@ -1,9 +1,10 @@
-package com.ig_.chatter
+package com.ig_.chatter.Controler
 
 import android.graphics.Color
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.ig_.chatter.R
 import kotlinx.android.synthetic.main.activity_create_user.*
 import kotlin.random.Random
 

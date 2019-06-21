@@ -1,9 +1,10 @@
-package com.ig_.chatter
+package com.ig_.chatter.Controler
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.ig_.chatter.R
 
 class LoginActivity : AppCompatActivity() {
 
