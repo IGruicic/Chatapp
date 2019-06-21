@@ -1,5 +1,6 @@
 package com.ig_.chatter
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.design.widget.FloatingActionButton
 import android.support.design.widget.Snackbar
@@ -44,7 +45,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun LoginBtnNavClc(view:View){
-
+        val loginIntent = Intent(this, LoginActivity::class.java)
+        startActivity(loginIntent)
     }
 
     fun AddChClc(view:View){
@@ -52,6 +54,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun SendMessageBtnClc(view:View){
-        
+
     }
 }
